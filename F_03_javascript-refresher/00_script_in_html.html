@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Script Basics - Rancel</title>
+    <title>Script Basics - Ranhee</title>
 </head>
 <body>
     <h1>Welcome to My JavaScript Refresher!</h1>
-    <p>Learning how JavaScript works in the browser.</p>
+    <p>Learning how JavaScript modules work in the browser.</p>
 
-    <script>
-        console.log("Hello! This is Rancel's inline JavaScript.");
+    <!-- Classic script -->
+    <script src="legacy.js"></script>
+
+    <!-- External module script -->
+    <script type="module" src="app.js"></script>
+
+    <!-- Inline module script -->
+    <script type="module">
+        import { userInfo } from "./15_modules_export.js";
+
+        console.log("User's name:", userInfo.name);
     </script>
-    <script src="app.js"></script>
 </body>
 </html>

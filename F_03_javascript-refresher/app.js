@@ -1,1 +1,1 @@
-console.log("Hello from Rancel's external JavaScript file!");
+console.log("Hello from the external JavaScript module!");
