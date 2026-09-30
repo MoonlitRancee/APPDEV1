@@ -1,0 +1,1 @@
+console.log("Hello from Rancel's external JavaScript file!");
