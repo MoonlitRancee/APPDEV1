@@ -1,0 +1,27 @@
+// Making Decisions & Repeating Code
+
+// 1. Grade Checker
+let score = 85;
+
+if (score >= 90) {
+    console.log("Grade: A");
+} else if (score >= 80) {
+    console.log("Grade: B");
+} else if (score >= 70) {
+    console.log("Grade: C");
+} else {
+    console.log("Grade: F");
+}
+
+// 2. For Loop: Print numbers 1 to 5
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
+
+// 3. While Loop: Print Hello 3 times
+let count = 0;
+
+while (count < 3) {
+    console.log("Hello");
+    count++;
+}
