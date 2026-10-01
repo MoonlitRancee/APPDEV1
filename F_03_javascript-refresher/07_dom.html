@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM - Rancel</title>
+</head>
+<body>
+    <h1>Meeting the Browser DOM</h1>
+
+    <button id="changeColorBtn">Change Background</button>
+
+    <p id="message">
+        This paragraph will update in 2 seconds.
+    </p>
+
+    <script>
+        // Find the button in the DOM
+        const button = document.getElementById("changeColorBtn");
+
+        // Change the background when the button is clicked
+        button.addEventListener("click", () => {
+            const color = prompt("What color should the background be?");
+
+            if (color) {
+                document.body.style.backgroundColor = color;
+            }
+        });
+
+        // Find the paragraph in the DOM
+        const message = document.getElementById("message");
+
+        // Update the paragraph after 2 seconds
+        setTimeout(() => {
+            message.textContent =
+                "This paragraph updated itself after 2 seconds!";
+        }, 2000);
+    </script>
+</body>
+</html>
