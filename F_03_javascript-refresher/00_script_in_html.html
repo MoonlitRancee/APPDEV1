@@ -15,9 +15,10 @@
 
     <!-- Inline module script -->
     <script type="module">
-        import { userInfo } from "./15_modules_export.js";
+        import greet, { userInfo } from "./15_modules_export.js";
 
-        console.log("User's name:", userInfo.name);
+        console.log(greet());
+        console.log(userInfo);
     </script>
 </body>
 </html>
