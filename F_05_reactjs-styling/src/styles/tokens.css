@@ -1,0 +1,24 @@
+
+:root {
+  /* Colors */
+  --color-primary: #4d6c7d;
+  --color-heading: #7d9c9e;
+  --color-text: #587586;
+  --color-placeholder: #a8bac6;
+  --color-muted: #c2cdd4;
+  --color-white: #ffffff;
+
+  /* Typography */
+  --font-family: Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-heading: 48px;
+
+  /* Spacing */
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  /* Layout */
+  --login-panel-radius: 16px;
+}
